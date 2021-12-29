@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 //assets
 import Logo from "../../Assets/Images/Logo.png";
 function Header() {
+  const [open, setOpen] = useState(false);
+  const opening = (e) => {
+    if (document.querySelector("body").classList.contains("overflow")) {
+      document.querySelector("body").classList.remove("overflow");
+    } else {
+      document.querySelector("body").classList.add("overflow");
+    }
+    setOpen((prev) => !prev);
+  };
   return (
     <div className="header">
       <img className="logo" src={Logo} alt="" />
-      <ul className="navbar">
+      <ul className={`navbar ${open ? "open" : ""}`}>
+        <li>
+          <i onClick={opening} className="mobile fas fa-times"></i>
+        </li>
         <li>
           <a href=".." className="nav-items">
             About
@@ -33,7 +45,8 @@ function Header() {
           </a>
         </li>
       </ul>
-      <div className="header_social">
+      <i onClick={opening} className="mobile fas fa-bars"></i>
+      <div className="desktop header_social">
         <i className=".header_icon fab fa-discord"></i>
         <i className=".header_icon fab fa-twitter"></i>
       </div>
