@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: var(--header);
+  border-bottom: 3px solid #525252;
+}
+.logo {
+  width: 4%;
+  object-fit: contain;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+.nav-items {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+}
+.nav-items::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  top: 100%;
+  transition: all 0.25s ease-in-out;
+}
+.nav-items:hover::before {
+  width: 100%;
+}
+.header_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.fa-discord,
+.fa-twitter {
+  font-size: 30px;
+  border-radius: 50%;
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-discord {
+  background-color: #5865f2;
+}
+.fa-twitter {
+  background-color: #1d9bef;
+}
