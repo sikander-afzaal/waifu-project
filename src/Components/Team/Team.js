@@ -10,8 +10,8 @@ import img7 from "../../Assets/Team/test7-no-bg.png";
 function Team() {
   return (
     <div className="team">
-      <h1>OUR TEAM</h1>
-      <div className="team-grid">
+      <h1 data-aos="fade-up">OUR TEAM</h1>
+      <div data-aos="fade-up" data-aos-delay="400" className="team-grid">
         <img className="team_image" src={img1} alt="..." />
         <img className="team_image" src={img2} alt="..." />
         <img className="team_image" src={img3} alt="..." />

@@ -17,12 +17,14 @@
   width: 4%;
   object-fit: contain;
 }
-.navbar {
+.navbar2 {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
   gap: 30px;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .nav-items {
   color: white;
@@ -43,14 +45,16 @@
 .nav-items:hover::before {
   width: 100%;
 }
+.nav-items:hover {
+  color: white;
+}
 .header_social {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-.fa-discord,
-.fa-twitter {
+.header_icon {
   font-size: 30px;
   border-radius: 50%;
   color: white;

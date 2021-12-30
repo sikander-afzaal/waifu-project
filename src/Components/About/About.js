@@ -6,9 +6,15 @@ import smallLogo from "../../Assets/Images/about-logo.png";
 function About() {
   return (
     <div className="about">
-      <div className="about_left">
+      <div data-aos-delay="500" data-aos="fade-up" className="about_left">
         <div className="card-mine big_card-mine">
-          <img className="absolute-image" src={smallLogo} alt="" />
+          <img
+            data-aos="zoom-out-up"
+            className="absolute-image"
+            data-aos-delay="700"
+            src={smallLogo}
+            alt=""
+          />
           <img className="card-mine-img big_img" src={img3} alt="..." />
           <p className="card-mine-title">Male smokers old</p>
           <div className="card-mine-lower">
@@ -17,7 +23,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="about_right">
+      <div data-aos="fade-up" className="about_right">
         <h4 className="about_title">ABOUT</h4>
         <h2 className="about_title2">WHAT is NFT?</h2>
         <p className="about_desc">

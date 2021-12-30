@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Faq() {
   return (
     <div className="faq">
-      <div className="faq_left">
+      <div data-aos="fade-up" className="faq_left">
         <h1>
           frequently <br /> asked <br /> questions
         </h1>
@@ -23,7 +23,7 @@ function Faq() {
           </span>
         </p>
       </div>
-      <div className="faq_right">
+      <div data-aos="fade-up" data-aos-delay="400" className="faq_right">
         <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
             <Accordion.Header>WHAT IS MABEANS?</Accordion.Header>

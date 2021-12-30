@@ -15,7 +15,7 @@ function Header() {
   return (
     <div className="header">
       <img className="logo" src={Logo} alt="" />
-      <ul className={`navbar ${open ? "open" : ""}`}>
+      <ul className={`navbar2 ${open ? "open" : ""}`}>
         <li>
           <i onClick={opening} className="mobile fas fa-times"></i>
         </li>
@@ -47,8 +47,8 @@ function Header() {
       </ul>
       <i onClick={opening} className="mobile fas fa-bars"></i>
       <div className="desktop header_social">
-        <i className=".header_icon fab fa-discord"></i>
-        <i className=".header_icon fab fa-twitter"></i>
+        <i className="header_icon fab fa-discord"></i>
+        <i className="header_icon fab fa-twitter"></i>
       </div>
     </div>
   );
