@@ -7,11 +7,11 @@ function About() {
   return (
     <div className="about">
       <div className="about_left">
-        <div className="card big_card">
+        <div className="card-mine big_card-mine">
           <img className="absolute-image" src={smallLogo} alt="" />
-          <img className="card-img big_img" src={img3} alt="..." />
-          <p className="card-title">Male smokers old</p>
-          <div className="card-lower">
+          <img className="card-mine-img big_img" src={img3} alt="..." />
+          <p className="card-mine-title">Male smokers old</p>
+          <div className="card-mine-lower">
             <p className="number">#2290</p>
             <p className="rarity mythic">Mythic</p>
           </div>

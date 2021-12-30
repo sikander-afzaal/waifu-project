@@ -13,7 +13,7 @@
   align-items: center;
   flex: 0.5;
 }
-.big_card {
+.big_card-mine {
   width: 320px;
   height: 385px;
   animation: none;

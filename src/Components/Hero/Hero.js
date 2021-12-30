@@ -20,59 +20,59 @@ function Hero() {
         <button className="hero_buy">BUY A BEAN</button>
         <button className="hero_create">Create +</button>
       </div>
-      <div className="hero_card-div">
-        <div className="card">
-          <img className="card-img" src={img} alt="..." />
-          <p className="card-title">Male smokers old</p>
-          <div className="card-lower">
+      <div className="hero_card-mine-div">
+        <div className="card-mine">
+          <img className="card-mine-img" src={img} alt="..." />
+          <p className="card-mine-title">Male smokers old</p>
+          <div className="card-mine-lower">
             <p className="number">#2290</p>
             <p className="rarity common">Common</p>
           </div>
         </div>
-        <div className="card">
-          <img className="card-img" src={img2} alt="..." />
-          <p className="card-title">Male smokers old</p>
-          <div className="card-lower">
+        <div className="card-mine">
+          <img className="card-mine-img" src={img2} alt="..." />
+          <p className="card-mine-title">Male smokers old</p>
+          <div className="card-mine-lower">
             <p className="number">#2290</p>
             <p className="rarity rare">Rare</p>
           </div>
         </div>
-        <div className="card">
-          <img className="card-img" src={img3} alt="..." />
-          <p className="card-title">Male smokers old</p>
-          <div className="card-lower">
+        <div className="card-mine">
+          <img className="card-mine-img" src={img3} alt="..." />
+          <p className="card-mine-title">Male smokers old</p>
+          <div className="card-mine-lower">
             <p className="number">#2290</p>
             <p className="rarity mythic">Mythic</p>
           </div>
         </div>
-        <div className="card">
-          <img className="card-img" src={img4} alt="..." />
-          <p className="card-title">Male smokers old</p>
-          <div className="card-lower">
+        <div className="card-mine">
+          <img className="card-mine-img" src={img4} alt="..." />
+          <p className="card-mine-title">Male smokers old</p>
+          <div className="card-mine-lower">
             <p className="number">#2290</p>
             <p className="rarity common">Common</p>
           </div>
         </div>
-        <div className="card">
-          <img className="card-img" src={img5} alt="..." />
-          <p className="card-title">Male smokers old</p>
-          <div className="card-lower">
+        <div className="card-mine">
+          <img className="card-mine-img" src={img5} alt="..." />
+          <p className="card-mine-title">Male smokers old</p>
+          <div className="card-mine-lower">
             <p className="number">#2290</p>
             <p className="rarity common">Common</p>
           </div>
         </div>
-        <div className="card">
-          <img className="card-img" src={img6} alt="..." />
-          <p className="card-title">Male smokers old</p>
-          <div className="card-lower">
+        <div className="card-mine">
+          <img className="card-mine-img" src={img6} alt="..." />
+          <p className="card-mine-title">Male smokers old</p>
+          <div className="card-mine-lower">
             <p className="number">#2290</p>
             <p className="rarity common">Common</p>
           </div>
         </div>
-        <div className="card">
-          <img className="card-img" src={img7} alt="..." />
-          <p className="card-title">Male smokers old</p>
-          <div className="card-lower">
+        <div className="card-mine">
+          <img className="card-mine-img" src={img7} alt="..." />
+          <p className="card-mine-title">Male smokers old</p>
+          <div className="card-mine-lower">
             <p className="number">#2290</p>
             <p className="rarity common">Common</p>
           </div>
