@@ -159,7 +159,7 @@
     padding: 0rem;
   }
   .roadmap h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .right-pointer h4 {
     font-size: 1.2rem;
@@ -229,8 +229,8 @@
   .pointer-div1 .right-pointer {
     padding-top: 20px;
   }
-  .pointer-div2 .left-pointer,
-  .pointer-div4 .left-pointer {
+  .pointer-div2 .right-pointer,
+  .pointer-div4 .right-pointer {
     padding-right: 20px;
   }
 }

@@ -75,7 +75,7 @@
 }
 @media screen and (max-width: 468px) {
   .faq h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .accordion-button {
     font-size: 1.3rem !important;

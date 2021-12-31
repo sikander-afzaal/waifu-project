@@ -100,6 +100,7 @@
 }
 @media screen and (max-width: 436px) {
   .gang h1 {
+    font-size: 2.5rem;
     padding: 0rem 1rem;
   }
   .gang_btn-div {
