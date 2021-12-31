@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Team.css";
 import img1 from "../../Assets/Team/test1-no-bg.png";
 import img2 from "../../Assets/Team/test2-no-bg.png";
@@ -7,7 +7,13 @@ import img4 from "../../Assets/Team/test4-no-bg.png";
 import img5 from "../../Assets/Team/test5-no-bg.png";
 import img6 from "../../Assets/Team/test6-no-bg.png";
 import img7 from "../../Assets/Team/test7-no-bg.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Team() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="team">
       <h1 data-aos="fade-up">OUR TEAM</h1>
