@@ -30,10 +30,7 @@ function Roadmap() {
           </div>
           <div className="right-pointer">
             <h4>Launch</h4>
-            <p>
-              Launch the presale for all whitelisted members, followed by a
-              public sale with all remaining stock
-            </p>
+            <p>Launch the presale for all whitelisted members, followed by a</p>
           </div>
         </div>
         <div
@@ -52,10 +49,7 @@ function Roadmap() {
           </div>
           <div className="right-pointer">
             <h4>Launch</h4>
-            <p>
-              Launch the presale for all whitelisted members, followed by a
-              public sale with all remaining stock
-            </p>
+            <p>Launch the presale for all whitelisted members, followed by a</p>
           </div>
         </div>
         <div
@@ -74,10 +68,7 @@ function Roadmap() {
           </div>
           <div className="right-pointer">
             <h4>Launch</h4>
-            <p>
-              Launch the presale for all whitelisted members, followed by a
-              public sale with all remaining stock
-            </p>
+            <p>Launch the presale for all whitelisted members, followed by a</p>
           </div>
         </div>
         <div
@@ -96,10 +87,7 @@ function Roadmap() {
           </div>
           <div className="right-pointer">
             <h4>Launch</h4>
-            <p>
-              Launch the presale for all whitelisted members, followed by a
-              public sale with all remaining stock
-            </p>
+            <p>Launch the presale for all whitelisted members, followed by a</p>
           </div>
         </div>
         <div
@@ -118,10 +106,7 @@ function Roadmap() {
           </div>
           <div className="right-pointer">
             <h4>Launch</h4>
-            <p>
-              Launch the presale for all whitelisted members, followed by a
-              public sale with all remaining stock
-            </p>
+            <p>Launch the presale for all whitelisted members, followed by a</p>
           </div>
         </div>
       </div>
