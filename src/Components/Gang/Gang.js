@@ -82,7 +82,7 @@ function Gang() {
           alt="..."
           className="gang-img6"
         />
-        <img
+        {/* <img
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
           data-aos-delay="900"
@@ -90,7 +90,7 @@ function Gang() {
           src={img7}
           alt="..."
           className="gang-img7"
-        />
+        /> */}
       </div>
     </div>
   );
