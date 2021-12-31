@@ -226,6 +226,9 @@
   .pointer-div5 .right-pointer {
     padding-left: 20px;
   }
+  .pointer-div1 .right-pointer {
+    padding-top: 20px;
+  }
   .pointer-div2 .left-pointer,
   .pointer-div4 .left-pointer {
     padding-right: 20px;

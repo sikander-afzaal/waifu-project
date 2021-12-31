@@ -8,6 +8,7 @@
   background-color: #272727;
   height: auto;
   padding: 7rem 0rem;
+  overflow: visible;
 }
 .about_left,
 .about_right {
