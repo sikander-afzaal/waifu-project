@@ -98,7 +98,7 @@
     align-items: flex-start;
     padding: 50px 20px !important;
     transition: all 0.35s ease-in-out;
-    transform: translateX(2000px);
+    right: -100vw;
     opacity: 0;
     z-index: 2;
   }
@@ -113,7 +113,7 @@
     height: 0%;
   }
   .open {
-    transform: translateX(0);
+    right: 0;
     opacity: 1;
   }
 }

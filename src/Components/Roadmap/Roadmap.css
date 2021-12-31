@@ -1,0 +1,207 @@
+.roadmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  height: auto;
+  min-height: 70vh;
+  flex-direction: column;
+  padding: 4rem 0rem;
+}
+.roadmap h1 {
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.roadmap-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  position: relative;
+}
+.roadmap-bg {
+  width: 100%;
+  object-fit: contain;
+}
+.pointer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28%;
+  position: absolute;
+}
+.left-pointer {
+  width: 100%;
+}
+.pointer-img {
+  width: 100%;
+  object-fit: contain;
+}
+.right-pointer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+}
+.right-pointer h4 {
+  font-size: 2rem;
+}
+.right-pointer p {
+  font-size: 1.1rem;
+}
+.pointer-div1 {
+  top: 3.5%;
+  left: 68%;
+}
+.pointer-div2 {
+  top: 22%;
+  left: 3.5%;
+}
+.pointer-div2 .left-pointer {
+  order: 2;
+}
+.pointer-div3 {
+  left: 68%;
+  top: 41%;
+}
+.pointer-div4 {
+  top: 62%;
+  left: 4%;
+}
+.pointer-div4 .left-pointer {
+  order: 2;
+}
+.pointer-div5 {
+  top: 81%;
+  left: 68%;
+}
+@media screen and (max-width: 812px) {
+  .right-pointer h4 {
+    font-size: 1.2rem;
+  }
+  .right-pointer p {
+    font-size: 0.9rem;
+  }
+  .pointer-div1 {
+    top: 2.5%;
+  }
+  .pointer-div5 {
+    top: 79%;
+  }
+}
+@media screen and (max-width: 632px) {
+  .right-pointer h4 {
+    font-size: 1.2rem;
+  }
+  .right-pointer p {
+    font-size: 0.9rem;
+  }
+  .pointer-div {
+    width: 65%;
+  }
+  .left-pointer {
+    width: 30%;
+  }
+  .pointer-div1 {
+    top: 2%;
+    left: 11%;
+  }
+  .pointer-div2 {
+    top: 20%;
+    left: 23%;
+  }
+  .pointer-div2 .right-pointer {
+    order: 2;
+  }
+  .pointer-div3 {
+    left: 11.5%;
+    top: 41%;
+  }
+  .pointer-div4 {
+    top: 59%;
+    left: 24%;
+  }
+  .pointer-div4 .right-pointer {
+    order: 2;
+  }
+  .pointer-div5 {
+    top: 79%;
+    left: 11%;
+  }
+  .pointer-div1 .left-pointer {
+    order: 2;
+  }
+  .pointer-div2 .left-pointer {
+    order: 1;
+  }
+  .pointer-div3 .left-pointer {
+    order: 2;
+  }
+  .pointer-div4 .left-pointer {
+    order: 1;
+  }
+  .pointer-div5 .left-pointer {
+    order: 2;
+  }
+}
+@media screen and (max-width: 478px) {
+  .right-pointer h4 {
+    font-size: 1.2rem;
+  }
+  .right-pointer p {
+    font-size: 0.9rem;
+  }
+  .pointer-div {
+    width: 65%;
+  }
+  .left-pointer {
+    width: 23%;
+  }
+  .right-pointer {
+    width: 85%;
+  }
+  .pointer-div1 {
+    top: -3%;
+    left: 13%;
+  }
+  .pointer-div2 {
+    top: 20%;
+    left: 25%;
+  }
+  .pointer-div2 .right-pointer {
+    order: 2;
+  }
+  .pointer-div3 {
+    left: 12.5%;
+    top: 38%;
+  }
+  .pointer-div4 {
+    top: 57%;
+    left: 22%;
+  }
+  .pointer-div4 .right-pointer {
+    order: 2;
+  }
+  .pointer-div5 {
+    top: 74%;
+    left: 13%;
+  }
+  .pointer-div1 .left-pointer {
+    order: 2;
+  }
+  .pointer-div2 .left-pointer {
+    order: 1;
+  }
+  .pointer-div3 .left-pointer {
+    order: 2;
+  }
+  .pointer-div4 .left-pointer {
+    order: 1;
+  }
+  .pointer-div5 .left-pointer {
+    order: 2;
+  }
+}
