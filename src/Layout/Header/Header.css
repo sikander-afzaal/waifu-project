@@ -26,6 +26,9 @@
   padding: 0 !important;
   margin: 0 !important;
 }
+.navbar2 li {
+  overflow: visible;
+}
 .nav-items {
   color: white;
   text-decoration: none;
@@ -101,12 +104,14 @@
     right: -100vw;
     opacity: 0;
     z-index: 2;
+    display: none;
   }
   .nav-items {
     font-size: 1.4rem;
     border-bottom: 2px solid white;
     padding-bottom: 5px;
     width: 100%;
+    overflow: visible;
   }
   .nav-items::before {
     content: "";
@@ -115,6 +120,9 @@
   .open {
     right: 0;
     opacity: 1;
+  }
+  .block {
+    display: flex;
   }
 }
 @media screen and (max-width: 478px) {

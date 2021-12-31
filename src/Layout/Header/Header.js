@@ -3,19 +3,27 @@ import "./Header.css";
 //assets
 import Logo from "../../Assets/Images/Logo.png";
 function Header() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const opening = (e) => {
-    if (document.querySelector("body").classList.contains("overflow")) {
-      document.querySelector("body").classList.remove("overflow");
+    const navbar = document.querySelector(".navbar2");
+
+    if (open === true) {
+      navbar.classList.add("block");
+      setTimeout(() => {
+        navbar.classList.add("open");
+      }, 50);
     } else {
-      document.querySelector("body").classList.add("overflow");
+      navbar.classList.remove("open");
+      setTimeout(() => {
+        navbar.classList.remove("block");
+      }, 50);
     }
     setOpen((prev) => !prev);
   };
   return (
     <div className="header">
       <img className="logo" src={Logo} alt="" />
-      <ul className={`navbar2 ${open ? "open" : ""}`}>
+      <ul className="navbar2">
         <li>
           <i onClick={opening} className="mobile fas fa-times"></i>
         </li>

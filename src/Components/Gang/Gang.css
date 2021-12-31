@@ -6,6 +6,7 @@
   background-color: #1d1d1d;
   gap: 2rem;
   padding: 2rem 0rem;
+  overflow: visible;
 }
 .gang h1 {
   color: white;
@@ -48,6 +49,7 @@
   height: auto;
   min-height: 40vh;
   margin-top: 8rem;
+  overflow: visible;
 }
 .gang-absolute img {
   position: absolute;
