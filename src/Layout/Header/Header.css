@@ -75,6 +75,10 @@
   background-color: #1d9bef;
 }
 @media screen and (max-width: 730px) {
+  .header {
+    justify-content: space-between;
+    padding-inline: 35px;
+  }
   .desktop {
     display: none;
   }

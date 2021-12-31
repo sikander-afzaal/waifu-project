@@ -74,6 +74,9 @@
   }
 }
 @media screen and (max-width: 468px) {
+  .faq {
+    padding-bottom: 1.5rem;
+  }
   .faq h1 {
     font-size: 2rem;
   }
