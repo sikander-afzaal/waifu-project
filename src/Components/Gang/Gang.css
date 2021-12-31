@@ -99,6 +99,9 @@
   }
 }
 @media screen and (max-width: 436px) {
+  .gang h1 {
+    padding: 0rem 1rem;
+  }
   .gang_btn-div {
     flex-direction: column;
   }

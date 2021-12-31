@@ -80,6 +80,9 @@
   }
 }
 @media screen and (max-width: 504px) {
+  .team h1 {
+    font-size: 3rem;
+  }
   .team_image {
     width: 79%;
   }

@@ -155,6 +155,9 @@
   }
 }
 @media screen and (max-width: 478px) {
+  .roadmap {
+    padding: 0rem;
+  }
   .roadmap h1 {
     font-size: 3rem;
   }
@@ -222,5 +225,9 @@
   .pointer-div3 .right-pointer,
   .pointer-div5 .right-pointer {
     padding-left: 20px;
+  }
+  .pointer-div2 .left-pointer,
+  .pointer-div4 .left-pointer {
+    padding-right: 20px;
   }
 }
