@@ -19,6 +19,7 @@
   animation: none;
   position: relative;
   overflow: visible;
+  pointer-events: none;
 }
 .absolute-image {
   position: absolute;

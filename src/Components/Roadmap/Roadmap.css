@@ -48,9 +48,13 @@
 }
 .right-pointer h4 {
   font-size: 2rem;
+  padding: 0px;
+  margin: 0px;
 }
 .right-pointer p {
   font-size: 1.1rem;
+  padding: 0px;
+  margin: 0px;
 }
 .pointer-div1 {
   top: 3.5%;
@@ -152,42 +156,46 @@
     font-size: 1.2rem;
   }
   .right-pointer p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    width: 85%;
   }
   .pointer-div {
-    width: 65%;
+    width: 100%;
   }
   .left-pointer {
-    width: 23%;
+    width: 50%;
+  }
+  .left-pointer img {
+    width: 39%;
   }
   .right-pointer {
     width: 85%;
   }
   .pointer-div1 {
-    top: -3%;
-    left: 13%;
+    top: -1%;
+    left: 1%;
   }
   .pointer-div2 {
     top: 20%;
-    left: 25%;
+    left: 12%;
   }
-  .pointer-div2 .right-pointer {
-    order: 2;
+  .pointer-div2 .left-pointer {
+    text-align: center;
   }
   .pointer-div3 {
-    left: 12.5%;
+    left: 1.5%;
     top: 38%;
   }
   .pointer-div4 {
     top: 57%;
-    left: 22%;
+    left: 10%;
   }
-  .pointer-div4 .right-pointer {
-    order: 2;
+  .pointer-div4 .left-pointer {
+    text-align: center;
   }
   .pointer-div5 {
     top: 74%;
-    left: 13%;
+    left: 1%;
   }
   .pointer-div1 .left-pointer {
     order: 2;
