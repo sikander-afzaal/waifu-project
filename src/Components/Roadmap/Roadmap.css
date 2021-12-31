@@ -12,6 +12,7 @@
   color: white;
   font-size: 4rem;
   text-transform: uppercase;
+  overflow: visible;
 }
 .roadmap-image {
   display: flex;
@@ -50,11 +51,13 @@
   font-size: 2rem;
   padding: 0px;
   margin: 0px;
+  overflow: visible;
 }
 .right-pointer p {
   font-size: 1.1rem;
   padding: 0px;
   margin: 0px;
+  overflow: visible;
 }
 .pointer-div1 {
   top: 3.5%;

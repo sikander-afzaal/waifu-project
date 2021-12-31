@@ -1,3 +1,6 @@
+.faq * {
+  overflow: visible !important;
+}
 .faq {
   display: flex;
   justify-content: center;
@@ -6,6 +9,7 @@
   padding: 4rem 6rem;
   height: auto;
   min-height: 55vh;
+  overflow: visible;
 }
 .faq_left,
 .faq_right {
@@ -22,6 +26,7 @@
   font-size: 4rem;
   color: white;
   text-transform: uppercase;
+  overflow: visible;
 }
 .faq_left p {
   font-size: 1.1rem;

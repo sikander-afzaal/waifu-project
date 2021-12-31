@@ -1,3 +1,6 @@
+.about * {
+  overflow: visible;
+}
 .about {
   display: flex;
   justify-content: center;

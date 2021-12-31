@@ -1,3 +1,6 @@
+.team * {
+  overflow: visible;
+}
 .team {
   display: flex;
   flex-direction: column;
@@ -12,6 +15,7 @@
   font-size: 3.5rem;
   text-transform: uppercase;
   margin-bottom: 4rem;
+  overflow: visible;
 }
 .team-grid {
   display: grid;

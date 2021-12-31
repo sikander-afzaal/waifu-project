@@ -13,6 +13,7 @@
   font-size: 5rem;
   text-transform: uppercase;
   margin-top: 3rem;
+  overflow: visible;
 }
 .gang_btn-div {
   display: flex;
