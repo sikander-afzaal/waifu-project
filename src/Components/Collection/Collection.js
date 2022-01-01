@@ -31,64 +31,66 @@ function Collection() {
           <img src={img} alt="" className="collection_img" />
           <p className="head-img">Fair Launch</p>
           <p className="hidden">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
-            ipsam.
+            Each waifu NFT is 0.03/0.05/0.07 ETH. Only 5/4/3 can be minted per
+            transaction. No bonding curve.
           </p>
         </span>
         <span onClick={clickHandler}>
           <img src={img2} alt="" className="collection_img" />
           <p className="head-img">Win Prizes</p>
           <p className="hidden">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
-            ipsam.
+            Each waifu NFT is a ticket to participate in every lottery event.
+            Each ticket grants X number of entries based on the color rarity.
           </p>
         </span>
         <span onClick={clickHandler}>
           <img src={img3} alt="" className="collection_img" />
           <p className="head-img">Unique Art</p>
           <p className="hidden">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
-            ipsam.
+            Only a total of 8,888 waifus will ever be minted into existence,
+            making them super rare. 6 color rarities gives you a chance to mint
+            an extra rare one!
           </p>
         </span>
         <span onClick={clickHandler}>
           <img src={img4} alt="" className="collection_img" />
           <p className="head-img">Limited</p>
           <p className="hidden">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
-            ipsam.
+            Each NFT waifu is a uniquely composed 1 of 1 piece of artwork drawn
+            by our styleGAN2 deep learning AI overlord. No two waifus are the
+            same!
           </p>
         </span>
         <span onClick={clickHandler}>
           <img src={img5} alt="" className="collection_img" />
           <p className="head-img">Make History</p>
           <p className="hidden">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
-            ipsam.
+            All Waifustation NFT owners will forever be engraved in history via
+            Waifustation OVA.
           </p>
         </span>
         <span onClick={clickHandler}>
           <img src={img6} alt="" className="collection_img" />
           <p className="head-img">Good Cause</p>
           <p className="hidden">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
-            ipsam.
+            Upon 80% completion of the Mission Roadmap, 10 ETH will be donated
+            to Kyoto Animation.
           </p>
         </span>
         <span onClick={clickHandler}>
           <img src={img7} alt="" className="collection_img" />
           <p className="head-img">Ownership</p>
           <p className="hidden">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
-            ipsam.
+            All waifu NFTs come with full commercial usage rights. Do as you
+            please with your waifus!
           </p>
         </span>
         <span onClick={clickHandler}>
           <img src={img6} alt="" className="collection_img" />
           <p className="head-img">Royalties</p>
           <p className="hidden">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
-            ipsam.
+            50% of ETH obtained from all gachapon machines will be continuously
+            airdropped to the NFT owners.
           </p>
         </span>
       </div>

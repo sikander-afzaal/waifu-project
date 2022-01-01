@@ -20,14 +20,7 @@
 .about_left {
   overflow: visible;
 }
-.big_card-mine {
-  width: 320px;
-  height: 385px;
-  animation: none;
-  position: relative;
-  overflow: visible;
-  pointer-events: none;
-}
+
 .absolute-image {
   position: absolute;
   right: -32%;
@@ -73,6 +66,33 @@
   cursor: pointer;
   background-color: #fa3f62;
   text-transform: uppercase;
+}
+.card-mine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 220px;
+  height: 280px;
+  text-align: left;
+  gap: 10px;
+  padding: 10px 0px;
+  border-radius: 25px;
+  /* transform: translateY(50px); */
+  /* opacity: 0; */
+  padding-top: 30px;
+  overflow: visible;
+  transition: all 0.25s ease-in-out;
+  margin-right: 2rem;
+}
+.big_card-mine {
+  width: 320px;
+  height: 385px;
+  animation: none;
+  position: relative;
+  overflow: visible;
+  pointer-events: none;
 }
 @media screen and (max-width: 1036px) {
   .about {

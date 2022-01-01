@@ -30,9 +30,9 @@ function Hero() {
       </div>
 
       <div className="hero_card-mine-div">
-        <div className="marquee--inner">
-          <span data-aos="fade-up" data-aos-delay="400">
-            <div className="card-mine">
+        <div className="slider">
+          <div className="slide-track">
+            <div className="slide">
               <img className="card-mine-img" src={img} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
@@ -40,23 +40,23 @@ function Hero() {
                 <p className="rarity common">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img2} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
                 <p className="number">#2290</p>
-                <p className="rarity rare">Rare</p>
+                <p className="rarity rare">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img3} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
                 <p className="number">#2290</p>
-                <p className="rarity mythic">Mythic</p>
+                <p className="rarity mythic">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img4} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
@@ -64,7 +64,7 @@ function Hero() {
                 <p className="rarity common">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img5} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
@@ -72,7 +72,7 @@ function Hero() {
                 <p className="rarity common">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img6} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
@@ -80,7 +80,7 @@ function Hero() {
                 <p className="rarity common">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img7} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
@@ -88,9 +88,7 @@ function Hero() {
                 <p className="rarity common">Common</p>
               </div>
             </div>
-          </span>
-          <span data-aos="fade-up" data-aos-delay="500">
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
@@ -98,23 +96,23 @@ function Hero() {
                 <p className="rarity common">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img2} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
                 <p className="number">#2290</p>
-                <p className="rarity rare">Rare</p>
+                <p className="rarity rare">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img3} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
                 <p className="number">#2290</p>
-                <p className="rarity mythic">Mythic</p>
+                <p className="rarity mythic">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img4} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
@@ -122,7 +120,7 @@ function Hero() {
                 <p className="rarity common">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img5} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
@@ -130,7 +128,7 @@ function Hero() {
                 <p className="rarity common">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img6} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
@@ -138,7 +136,7 @@ function Hero() {
                 <p className="rarity common">Common</p>
               </div>
             </div>
-            <div className="card-mine">
+            <div className="slide">
               <img className="card-mine-img" src={img7} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
@@ -146,7 +144,7 @@ function Hero() {
                 <p className="rarity common">Common</p>
               </div>
             </div>
-          </span>
+          </div>
         </div>
       </div>
       <p className="hero-desc">

@@ -16,6 +16,7 @@ function Faq() {
             style={{
               color: "#FFC683",
               textDecoration: "underline",
+              cursor: "pointer",
             }}
           >
             threat to themselves

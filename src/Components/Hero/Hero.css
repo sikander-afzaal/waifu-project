@@ -90,58 +90,11 @@
   height: 400px;
   position: relative;
 }
-.card-mine {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: white;
-  width: 220px;
-  height: 280px;
-  text-align: left;
-  gap: 10px;
-  padding: 10px 0px;
-  border-radius: 25px;
-  /* transform: translateY(50px); */
-  /* opacity: 0; */
-  padding-top: 30px;
-  overflow: visible;
-  transition: all 0.25s ease-in-out;
-}
-.card-mine:hover {
+.slide:hover {
   transform: translateY(-60px) scale(1.2);
 }
-.marquee--inner {
-  display: flex;
-  position: absolute;
-  animation: marquee 20s linear infinite;
-  justify-content: space-evenly;
-  gap: 40px;
-}
-
-.marquee--inner:hover {
+.slide-track:hover {
   animation-play-state: paused;
-}
-
-/*.half {
-  float: left;
-  width: 10%;
-}*/
-
-.marquee--inner span {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 40px;
-}
-
-@keyframes marquee {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100%;
-  }
 }
 .card-mine-img {
   width: 80%;
@@ -234,4 +187,63 @@
   .marquee--inner {
     animation-duration: 7s;
   }
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+.slider::before,
+.slider::after {
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 220px;
+  height: 280px;
+  text-align: left;
+  gap: 10px;
+  padding: 10px 0px;
+  border-radius: 25px;
+  /* transform: translateY(50px); */
+  /* opacity: 0; */
+  padding-top: 30px;
+  overflow: visible;
+  transition: all 0.25s ease-in-out;
+  margin-right: 2rem;
 }
