@@ -133,7 +133,7 @@
     font-size: 1.2rem;
   }
   .hidden {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .collection_grid {
     margin-top: 2rem;
@@ -148,9 +148,9 @@
     font-size: 2.5rem;
   }
   .head-img {
-    font-size: 1.2rem;
+    font-size: 1.14rem;
   }
   .hidden {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
