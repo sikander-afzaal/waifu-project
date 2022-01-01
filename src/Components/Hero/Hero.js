@@ -10,16 +10,13 @@ import img6 from "../../Assets/Images/test6.png";
 import img7 from "../../Assets/Images/test7.png";
 function Hero() {
   return (
-    <div className="hero">
+    <div id="hero" className="hero">
       <h1>Collect Beans On the Metaverse</h1>
       <p className="hero-p">
         5000 confused beans who have somehow made their way to the metaverse.
         Only on Solana
       </p>
-      <div className="hero_btn-div">
-        <button className="hero_buy">BUY A BEAN</button>
-        <button className="hero_create">Create +</button>
-      </div>
+      <button className="hero_connect">Connect</button>
       <div className="hero_card-mine-div">
         <div className="marquee--inner">
           <span>

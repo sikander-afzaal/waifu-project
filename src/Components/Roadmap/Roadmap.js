@@ -4,7 +4,7 @@ import bg from "../../Assets/Images/roadmap-bg.png";
 import pointer from "../../Assets/Images/pointer.png";
 function Roadmap() {
   return (
-    <div className="roadmap">
+    <div id="roadmap" className="roadmap">
       <h1 data-aos="fade-down">Road Map</h1>
       <div className="roadmap-image">
         <img

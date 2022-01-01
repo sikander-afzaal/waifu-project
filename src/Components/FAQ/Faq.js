@@ -4,7 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 import "bootstrap/dist/css/bootstrap.min.css";
 function Faq() {
   return (
-    <div className="faq">
+    <div id="faq" className="faq">
       <div data-aos="fade-up" className="faq_left">
         <h1>
           frequently <br /> asked <br /> questions

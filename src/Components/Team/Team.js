@@ -15,7 +15,7 @@ function Team() {
     AOS.refresh();
   }, []);
   return (
-    <div className="team">
+    <div id="team" className="team">
       <h1 data-aos="fade-up">OUR TEAM</h1>
       <div data-aos="fade-up" data-aos-delay="400" className="team-grid">
         <img className="team_image" src={img1} alt="..." />

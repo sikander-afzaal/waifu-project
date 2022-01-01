@@ -62,6 +62,18 @@
 .about_right button {
   margin-top: 1.5rem;
 }
+.hero_buy {
+  border: none;
+  border-radius: 15px;
+  color: white;
+  width: 190px;
+  height: 50px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #fa3f62;
+  text-transform: uppercase;
+}
 @media screen and (max-width: 1036px) {
   .about {
     flex-direction: column;

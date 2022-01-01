@@ -8,12 +8,15 @@ import Roadmap from "./Components/Roadmap/Roadmap.js";
 import Team from "./Components/Team/Team.js";
 import Faq from "./Components/FAQ/Faq.js";
 import Gang from "./Components/Gang/Gang.js";
+import Collection from "./Components/Collection/Collection.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      once: true,
+    });
     AOS.refresh();
   }, []);
   return (
@@ -21,6 +24,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Collection />
       <Roadmap />
       <Team />
       <Faq />

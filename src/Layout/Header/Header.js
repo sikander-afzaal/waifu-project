@@ -28,27 +28,27 @@ function Header() {
           <i onClick={opening} className="mobile fas fa-times"></i>
         </li>
         <li>
-          <a href=".." className="nav-items">
+          <a href="#hero" className="nav-items">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#about" className="nav-items">
             About
           </a>
         </li>
         <li>
-          <a href=".." className="nav-items">
-            Attributes
+          <a href="#roadmap" className="nav-items">
+            Roadmap
           </a>
         </li>
         <li>
-          <a href=".." className="nav-items">
-            Specs
-          </a>
-        </li>
-        <li>
-          <a href=".." className="nav-items">
+          <a href="#team" className="nav-items">
             Team
           </a>
         </li>
         <li>
-          <a href=".." className="nav-items">
+          <a href="#faq" className="nav-items">
             FAQ
           </a>
         </li>

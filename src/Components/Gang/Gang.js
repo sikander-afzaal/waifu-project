@@ -15,7 +15,7 @@ function Gang() {
     AOS.refresh();
   }, []);
   return (
-    <div className="gang">
+    <div id="gang" className="gang">
       <h1 data-aos="fade-up">Let's Join the gang!</h1>
       <div data-aos="fade-up" data-aos-delay="50" className="gang_btn-div">
         <button className="btn-gang gang-discord">

@@ -5,7 +5,7 @@ import img3 from "../../Assets/Images/test3.png";
 import smallLogo from "../../Assets/Images/about-logo.png";
 function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div data-aos-delay="500" data-aos="fade-up" className="about_left">
         <div className="card-mine big_card-mine">
           <img
