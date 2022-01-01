@@ -16,7 +16,10 @@ function Hero() {
         5000 confused beans who have somehow made their way to the metaverse.
         Only on Solana
       </p>
-      <button className="hero_connect">Connect</button>
+      <div className="btn-div">
+        <button className="hero_connect">Connect</button>
+        <button className="hero_create">Create +</button>
+      </div>
       <div className="hero_card-mine-div">
         <div className="marquee--inner">
           <span>
