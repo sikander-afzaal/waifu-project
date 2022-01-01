@@ -6,12 +6,12 @@ import smallLogo from "../../Assets/Images/about-logo.png";
 function About() {
   return (
     <div id="about" className="about">
-      <div data-aos-delay="500" data-aos="fade-up" className="about_left">
+      <div data-aos="fade-up" className="about_left">
         <div className="card-mine big_card-mine">
           <img
             data-aos="zoom-out-up"
             className="absolute-image"
-            data-aos-delay="700"
+            data-aos-delay="500"
             src={smallLogo}
             alt=""
           />
