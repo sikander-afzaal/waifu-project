@@ -20,6 +20,7 @@
   align-items: center;
   margin-top: 2rem;
   position: relative;
+  overflow: visible;
 }
 .roadmap-bg {
   border-radius: 65px;
@@ -233,5 +234,22 @@
   .pointer-div2 .right-pointer,
   .pointer-div4 .right-pointer {
     padding-right: 20px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .roadmap {
+    padding: 2rem 0rem;
+  }
+
+  .right-pointer h4 {
+    font-size: 1.1rem;
+  }
+  .pointer-div1 {
+    top: -2%;
+    left: 11%;
+  }
+  .pointer-div2 {
+    top: 20%;
+    left: 27%;
   }
 }
