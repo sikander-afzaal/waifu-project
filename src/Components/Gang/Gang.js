@@ -6,7 +6,6 @@ import img3 from "../../Assets/Team/test3-no-bg.png";
 import img4 from "../../Assets/Team/test4-no-bg.png";
 import img5 from "../../Assets/Team/test5-no-bg.png";
 import img6 from "../../Assets/Team/test6-no-bg.png";
-import img7 from "../../Assets/Team/test7-no-bg.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function Gang() {

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.css";
-
 //assets
 import img from "../../Assets/Images/test.png";
 import img2 from "../../Assets/Images/test2.png";
@@ -29,6 +28,7 @@ function Hero() {
           Create +
         </button>
       </div>
+
       <div className="hero_card-mine-div">
         <div className="marquee--inner">
           <span data-aos="fade-up" data-aos-delay="400">
