@@ -29,7 +29,11 @@ function Hero() {
         </button>
       </div>
 
-      <div className="hero_card-mine-div">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="400"
+        className="hero_card-mine-div"
+      >
         <div className="slider">
           <div className="slide-track">
             <div className="slide">
@@ -45,7 +49,7 @@ function Hero() {
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
                 <p className="number">#2290</p>
-                <p className="rarity rare">Common</p>
+                <p className="rarity rare">Rare</p>
               </div>
             </div>
             <div className="slide">
@@ -53,7 +57,7 @@ function Hero() {
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
                 <p className="number">#2290</p>
-                <p className="rarity mythic">Common</p>
+                <p className="rarity mythic">Mythic</p>
               </div>
             </div>
             <div className="slide">
@@ -101,7 +105,7 @@ function Hero() {
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
                 <p className="number">#2290</p>
-                <p className="rarity rare">Common</p>
+                <p className="rarity rare">Rare</p>
               </div>
             </div>
             <div className="slide">
@@ -109,7 +113,7 @@ function Hero() {
               <p className="card-mine-title">Male smokers old</p>
               <div className="card-mine-lower">
                 <p className="number">#2290</p>
-                <p className="rarity mythic">Common</p>
+                <p className="rarity mythic">Mythic</p>
               </div>
             </div>
             <div className="slide">
