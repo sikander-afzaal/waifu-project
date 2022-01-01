@@ -1,3 +1,6 @@
+.hero * {
+  overflow: visible;
+}
 .hero {
   height: auto;
   width: 100%;
@@ -17,30 +20,24 @@
   width: 45%;
   text-transform: uppercase;
   margin-top: 1rem;
-  animation: translationY 0.5s ease-in-out 0s forwards;
-  transform: translateY(50px);
-  opacity: 0;
   overflow: visible;
 }
 .hero-p {
   color: #212529;
   font-size: 1rem;
   width: 24%;
-  animation: translationY 0.5s ease-in-out 0s forwards;
-  transform: translateY(50px);
-  opacity: 0;
 }
 /* animation1========================= */
-@keyframes translationY {
+/* @keyframes translationY {
   from {
     transform: translateY(50px);
     opacity: 0;
   }
   to {
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
     opacity: 1;
   }
-}
+} */
 .btn-div {
   display: flex;
   justify-content: center;
@@ -57,8 +54,8 @@
   font-size: 1.5rem;
   font-weight: 600;
   cursor: pointer;
-  transform: translateY(50px);
-  opacity: 0;
+  /* transform: translateY(50px); */
+  /* opacity: 0; */
   background-color: #686868;
   animation: translationY 0.5s ease-in-out 0.1s forwards;
   text-transform: uppercase;
@@ -73,10 +70,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   cursor: pointer;
-  transform: translateY(50px);
-  opacity: 0;
   background-color: #c400ff;
-  animation: translationY 0.5s ease-in-out 0.1s forwards;
   text-transform: uppercase;
   transition: all 0.25s ease-in-out;
 }
@@ -85,20 +79,19 @@
 }
 /* card-mine styling ------------------------------------- */
 .hero_card-mine-div * {
-  overflow: visible;
+  overflow: visible !important;
 }
 .hero_card-mine-div {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  margin-top: 2.3rem;
+  margin-top: 4.3rem;
   height: 400px;
-  overflow: hidden !important;
   position: relative;
 }
 .card-mine {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -109,14 +102,18 @@
   gap: 10px;
   padding: 10px 0px;
   border-radius: 25px;
-  transform: translateY(50px);
-  opacity: 0;
+  /* transform: translateY(50px); */
+  /* opacity: 0; */
   padding-top: 30px;
   overflow: visible;
+  transition: all 0.25s ease-in-out;
 }
 .card-mine:hover .card-mine-img {
-  transform: scale(1.35);
+  transform: scale(1.2);
   transform-origin: bottom;
+}
+.card-mine:hover {
+  transform: translateY(-60px) scale(1.2);
 }
 .marquee--inner {
   display: flex;

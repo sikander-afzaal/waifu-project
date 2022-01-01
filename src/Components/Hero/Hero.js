@@ -11,18 +11,26 @@ import img7 from "../../Assets/Images/test7.png";
 function Hero() {
   return (
     <div id="hero" className="hero">
-      <h1>Collect Beans On the Metaverse</h1>
-      <p className="hero-p">
+      <h1 data-aos="fade-up">Collect Beans On the Metaverse</h1>
+      <p data-aos="fade-up" className="hero-p">
         5000 confused beans who have somehow made their way to the metaverse.
         Only on Solana
       </p>
       <div className="btn-div">
-        <button className="hero_connect">Connect</button>
-        <button className="hero_create">Create +</button>
+        <button
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="hero_connect"
+        >
+          Connect
+        </button>
+        <button data-aos="fade-up" data-aos-delay="300" className="hero_create">
+          Create +
+        </button>
       </div>
       <div className="hero_card-mine-div">
         <div className="marquee--inner">
-          <span>
+          <span data-aos="fade-up" data-aos-delay="400">
             <div className="card-mine">
               <img className="card-mine-img" src={img} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
@@ -80,7 +88,7 @@ function Hero() {
               </div>
             </div>
           </span>
-          <span>
+          <span data-aos="fade-up" data-aos-delay="500">
             <div className="card-mine">
               <img className="card-mine-img" src={img} alt="..." />
               <p className="card-mine-title">Male smokers old</p>
