@@ -26,8 +26,8 @@ function App() {
       <Hero />
       <About />
       <Collection />
-      <Roadmap />
       <Launch />
+      <Roadmap />
       <Team />
       <Faq />
       <Powered />

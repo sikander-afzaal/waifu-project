@@ -5,7 +5,7 @@ import pointer from "../../Assets/Images/pointer.png";
 function Roadmap() {
   return (
     <div id="roadmap" className="roadmap">
-      <h1 data-aos="fade-down">Road Map</h1>
+      <h1 data-aos="fade-down">DAO</h1>
       <div className="roadmap-image">
         <img
           data-aos-delay="200"
