@@ -42,7 +42,7 @@
   position: relative;
   width: 90%;
   transition: all 0.3s ease-in-out;
-  border-radius: 25px;
+  border-radius: 15px;
   overflow: hidden;
   box-shadow: 2px 4px 5px 3px rgba(0, 0, 0, 0.4);
   transition-delay: 0.1s;
@@ -91,7 +91,7 @@
   pointer-events: none;
 }
 .collection_grid span:hover {
-  transform: translateY(-20px);
+  transform: translateY(-8px);
 }
 .collection_grid span:hover .hidden {
   visibility: visible;
