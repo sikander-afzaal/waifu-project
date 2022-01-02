@@ -50,6 +50,7 @@
 .collection_img {
   width: 100%;
   object-fit: contain;
+  pointer-events: none;
 }
 .head-img,
 .hidden {
@@ -58,6 +59,7 @@
 }
 .head-img {
   width: 100%;
+  pointer-events: none;
   height: 25%;
   background-color: #212529;
   color: white;
@@ -73,6 +75,7 @@
 .hidden {
   /* transform: scale(0); */
   bottom: 0;
+  pointer-events: none;
   transform-origin: bottom;
   height: 100%;
   width: 100%;
@@ -91,7 +94,7 @@
   pointer-events: none;
 }
 .collection_grid span:hover {
-  transform: translateY(-8px);
+  transform: scale(1.1);
 }
 .collection_grid span:hover .hidden {
   visibility: visible;
@@ -99,11 +102,11 @@
 }
 
 .open_hidden {
-  height: 100%;
+  visibility: visible;
   opacity: 1;
 }
 .translate_y {
-  transform: translateY(-20px);
+  transform: scale(1.1);
 }
 @media screen and (max-width: 1324px) {
   .collection_grid {
