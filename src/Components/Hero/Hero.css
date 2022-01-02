@@ -31,22 +31,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
   overflow: visible;
 }
 .hero_create {
+  background-color: #686868;
   border: none;
-  border-radius: 25px;
+  border-radius: 15px;
   color: white;
-  width: 200px;
-  height: 60px;
-  font-size: 1.5rem;
+  width: 190px;
+  height: 50px;
+  font-size: 1.3rem;
   font-weight: 600;
   cursor: pointer;
-  background-color: #686868;
-  animation: translationY 0.5s ease-in-out 0.1s forwards;
   text-transform: uppercase;
-  transition: all 0.25s ease-in-out;
 }
 .hero_connect {
   border: none;
@@ -187,14 +185,16 @@
   .btn-div {
     gap: 20px;
   }
-  .hero_connect,
-  .hero_create {
+  .hero_connect {
     width: 150px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .timer-div {
     padding: 20px 8px;
-    gap: 22px;
+    gap: 20px;
+  }
+  .time-box h2 {
+    font-size: 1rem !important;
   }
 }
 @media screen and (max-width: 426px) {
