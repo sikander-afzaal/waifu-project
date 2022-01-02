@@ -228,12 +228,12 @@
     font-size: 1.2rem;
   }
 }
-@media screen and (max-width: 404px) {
+@media screen and (max-width: 464px) {
   .dot-div:nth-child(1) {
-    top: 0.7%;
+    top: 0.5%;
   }
   .dot-div:nth-child(2) {
-    top: 20.5%;
+    top: 20.2%;
   }
   .dot-div:nth-child(3) {
     top: 40.2%;
@@ -244,10 +244,27 @@
   .dot-div:nth-child(5) {
     top: 79.8%;
   }
-  .launch h1 {
-    font-size: 2.5rem;
-  }
-  .launch-box p {
-    font-size: 1.2rem;
+  @media screen and (max-width: 414px) {
+    .dot-div:nth-child(1) {
+      top: 0.7%;
+    }
+    .dot-div:nth-child(2) {
+      top: 20.5%;
+    }
+    .dot-div:nth-child(3) {
+      top: 40.2%;
+    }
+    .dot-div:nth-child(4) {
+      top: 60%;
+    }
+    .dot-div:nth-child(5) {
+      top: 79.8%;
+    }
+    .launch h1 {
+      font-size: 2.5rem;
+    }
+    .launch-box p {
+      font-size: 1.2rem;
+    }
   }
 }
