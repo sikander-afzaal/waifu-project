@@ -92,6 +92,8 @@
   animation: none;
   position: relative;
   overflow: visible;
+  margin-right: 0px;
+
   pointer-events: none;
 }
 @media screen and (max-width: 1036px) {
@@ -121,9 +123,6 @@
   }
 }
 @media screen and (max-width: 430px) {
-  .about_left {
-    margin-left: 40px;
-  }
   .about_right button {
     font-size: 1rem;
     width: 145px;
