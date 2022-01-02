@@ -144,7 +144,7 @@
   }
   .dot-div:nth-child(5) {
     left: -19px;
-    top: 84%;
+    top: 80.5%;
   }
 }
 @media screen and (max-width: 900px) {
@@ -178,7 +178,7 @@
     top: 60%;
   }
   .dot-div:nth-child(5) {
-    top: 80.5%;
+    top: 80.2%;
   }
 }
 
@@ -200,7 +200,7 @@
     top: 60%;
   }
   .dot-div:nth-child(5) {
-    top: 80.5%;
+    top: 80.2%;
   }
 }
 
