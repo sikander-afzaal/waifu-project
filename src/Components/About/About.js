@@ -32,7 +32,10 @@ function About() {
           signifies something not interchangeable with another good due to its
           distinct properties.
         </p>
-        <button className="hero_buy">BUY A BEAN</button>
+        <div className="btn-div">
+          <button className="hero_buy">BUY A BEAN</button>
+          <button className="hero_create">BUY Anyhing</button>
+        </div>
       </div>
     </div>
   );

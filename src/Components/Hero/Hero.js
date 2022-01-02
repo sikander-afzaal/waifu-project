@@ -16,18 +16,9 @@ function Hero() {
         5000 confused beans who have somehow made their way to the metaverse.
         Only on Solana
       </p>
-      <div className="btn-div">
-        <button
-          data-aos="fade-up"
-          data-aos-delay="200"
-          className="hero_connect"
-        >
-          Connect
-        </button>
-        <button data-aos="fade-up" data-aos-delay="300" className="hero_create">
-          Create +
-        </button>
-      </div>
+      <button data-aos="fade-up" data-aos-delay="200" className="hero_connect">
+        Connect
+      </button>
 
       <div
         data-aos="fade-up"
