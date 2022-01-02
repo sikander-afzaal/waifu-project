@@ -108,6 +108,11 @@
 .translate_y {
   transform: scale(1.1);
 }
+@media screen and (max-width: 1450px) {
+  .hidden {
+    font-size: 0.9rem;
+  }
+}
 @media screen and (max-width: 1324px) {
   .collection_grid {
     gap: 40px;
