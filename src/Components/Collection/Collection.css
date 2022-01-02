@@ -74,8 +74,9 @@
   /* transform: scale(0); */
   bottom: 0;
   transform-origin: bottom;
-  height: 0%;
+  height: 100%;
   width: 100%;
+  visibility: hidden;
   background-color: #212529;
   opacity: 0;
   color: white;
@@ -93,7 +94,7 @@
   transform: translateY(-20px);
 }
 .collection_grid span:hover .hidden {
-  height: 100%;
+  visibility: visible;
   opacity: 1;
 }
 
