@@ -66,6 +66,12 @@
   cursor: pointer;
   background-color: #fa3f62;
   text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+}
+.hero_buy:hover,
+.hero_create:hover {
+  transform: scale(0.9);
+  opacity: 0.7;
 }
 .card-mine {
   display: flex;

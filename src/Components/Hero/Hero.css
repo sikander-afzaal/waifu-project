@@ -44,6 +44,7 @@
   font-size: 1.3rem;
   font-weight: 600;
   cursor: pointer;
+  transition: all 0.25s ease-in-out;
   text-transform: uppercase;
 }
 .hero_connect {

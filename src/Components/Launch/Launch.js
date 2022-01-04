@@ -23,85 +23,167 @@ function Launch() {
         <div data-aos="fade-up" data-aos-delay="100" className="launch-box">
           <p>NFT Giveaway</p>
           <div className="x10-div">
-            <img src={img1} alt="" />
+            {/* 3d flip ----------------- */}
+            <div className="box">
+              <img src={img1} alt="" />
+              <div className="content">
+                <p>Win 1 of 10 Waifustation NFTs.</p>
+              </div>
+            </div>
+            {/* 3d flip end ----------------------- */}
             <p>x10</p>
           </div>
           <p>CrunchyRoll Premium</p>
           <div className="x10-div">
-            <img src={img4} alt="" />
+            <div className="box">
+              <img src={img4} alt="" />
+              <div className="content">
+                <p>Win 1 of 10 Crunchyroll Premium subscriptions.</p>
+              </div>
+            </div>
             <p>x10</p>
           </div>
           <p>Metaverse Gachapons</p>
           <div className="x10-div">
-            <img src={img12} alt="" />
+            <div className="box">
+              <img src={img12} alt="" />
+              <div className="content">
+                <p>
+                  Waifustation gachapon stores will be built inside the Sandbox,
+                  Decentraland and future metaverses.
+                </p>
+              </div>
+            </div>
             <p>x10</p>
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="200" className="launch-box">
           <p>Partner NFTs</p>
           <div className="x10-div">
-            <img src={img11} alt="" />
+            <div className="box">
+              <img src={img11} alt="" />
+              <div className="content">
+                <p>Win 1 of 10 partner project NFTs.</p>
+              </div>
+            </div>
             <p>x10</p>
           </div>
           <p>Gachapon Ticket</p>
           <div className="x10-div">
-            <img src={img6} alt="" />
+            <div className="box">
+              <img src={img6} alt="" />
+              <div className="content">
+                <p>Win 1 of 30 gachapon roll tickets.</p>
+              </div>
+            </div>
             <p>x30</p>
           </div>
           <p>Game Assets</p>
           <div className="x10-div">
-            <img src={img7} alt="" />
+            <div className="box">
+              <img src={img7} alt="" />
+              <div className="content">
+                <p>Win 1 of 20 blockchain game assets.</p>
+              </div>
+            </div>
             <p>x20</p>
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="300" className="launch-box">
           <p>Crypto Crate</p>
           <div className="x10-div">
-            <img src={img15} alt="" />
+            <div className="box">
+              <img src={img15} alt="" />
+              <div className="content">
+                <p>
+                  Win 1 of 100 crypto crates charged with the top 50 altcoins.
+                </p>
+              </div>
+            </div>
             <p>x100</p>
           </div>
           <p>Gatebox AI</p>
           <div className="x10-div">
-            <img src={img9} alt="" />
+            <div className="box">
+              <img src={img9} alt="" />
+              <div className="content">
+                <p>Win 1 of 5 Gatebox AI personal hologram waifu.</p>
+              </div>
+            </div>
             <p>x5</p>
           </div>
           <p>Body Pillow</p>
           <div className="x10-div">
-            <img src={img3} alt="" />
+            <div className="box">
+              <img src={img3} alt="" />
+              <div className="content">
+                <p>Win 1 of 20 full-sized custom waifu body pillows.</p>
+              </div>
+            </div>
             <p>x20</p>
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="400" className="launch-box">
           <p>Eth Lottery</p>
           <div className="x10-div">
-            <img src={img5} alt="" />
+            <div className="box">
+              <img src={img5} alt="" />
+              <div className="content">
+                <p>Win ETH from prize pool.</p>
+              </div>
+            </div>
             <p>x100</p>
           </div>
           <p>Gaming PC RTX3090</p>
           <div className="x10-div">
-            <img src={img8} alt="" />
+            <div className="box">
+              <img src={img8} alt="" />
+              <div className="content">
+                <p>Win 1 of 5 Nvidia RTX3090 gaming PCs.</p>
+              </div>
+            </div>
             <p>x5</p>
           </div>
           <p>Playstation 5</p>
           <div className="x10-div">
-            <img src={img14} alt="" />
+            <div className="box">
+              <img src={img14} alt="" />
+              <div className="content">
+                <p>Win 1 of 10 Playstation 5.</p>
+              </div>
+            </div>
             <p>x10</p>
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="500" className="launch-box">
           <p>Waifustation OVA</p>
           <div className="x10-div">
-            <img src={img13} alt="" />
+            <div className="box">
+              <img src={img13} alt="" />
+              <div className="content">
+                <p>Win 1 of 10 spots to be part of Waifustation's OVA.</p>
+              </div>
+            </div>
             <p>x10</p>
           </div>
           <p>Waifu Cybertruck</p>
           <div className="x10-div">
-            <img src={img2} alt="" />
+            <div className="box">
+              <img src={img2} alt="" />
+              <div className="content">
+                <p>Win a 1 of 1 waifu wrapped Tesla Cybertruck.</p>
+              </div>
+            </div>
             <p>x1</p>
           </div>
           <p>Round Trip to Japan</p>
           <div className="x10-div">
-            <img src={img10} alt="" />
+            <div className="box">
+              <img src={img10} alt="" />
+              <div className="content">
+                <p>Win 1 of 10 round trips to Japan.</p>
+              </div>
+            </div>
             <p>x10</p>
           </div>
         </div>
