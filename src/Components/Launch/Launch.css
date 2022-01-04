@@ -70,12 +70,14 @@
   transition: 0.9s;
   max-width: 100%;
   backface-visibility: hidden;
+  pointer-events: none;
 }
 .box:hover img {
   transform: perspective(1000px) rotateX(-180deg);
 }
 .box .content {
   position: absolute;
+  pointer-events: none;
   top: 0;
   left: 0;
   width: 100%;
@@ -90,6 +92,12 @@
 }
 .box:hover .content {
   transform: perspective(1000px) rotateX(0deg);
+}
+.content_hover {
+  transform: perspective(1000px) rotateX(0deg) !important;
+}
+.img_hover {
+  transform: perspective(1000px) rotateX(-180deg) !important;
 }
 .content p {
   font-size: 1rem;
@@ -156,6 +164,12 @@
   .launch-box p {
     font-size: 1.4rem;
   }
+  .content p {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
   .launch {
     position: relative;
   }
@@ -281,6 +295,9 @@
   }
   .launch-box p {
     font-size: 1.2rem;
+  }
+  .launch-box p {
+    font-size: 1.1rem;
   }
 }
 @media screen and (max-width: 464px) {
