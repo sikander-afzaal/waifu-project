@@ -10,6 +10,7 @@ import img6 from "../../Assets/Images/test6.png";
 import img7 from "../../Assets/Images/test7.png";
 function Hero() {
   const [showTimer, setShowTimer] = useState(false);
+  const [showMint, setShowMint] = useState(false);
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
   const [timerMinutes, setTimerMinutes] = useState("00");
@@ -28,7 +29,10 @@ function Hero() {
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
       if (distance < 0) {
         // stop our timer
+        setShowTimer(false);
         clearInterval(interval.current);
+        document.querySelector(".hero_connect").style.display = "none";
+        setShowMint(true);
       } else {
         // update timer
         setTimerDays(days);
@@ -80,7 +84,18 @@ function Hero() {
           </div>
         </div>
       )}
-
+      {showMint ? (
+        <button
+          onClick={() => setShowTimer(true)}
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="hero_mint"
+        >
+          Mint
+        </button>
+      ) : (
+        ""
+      )}
       <div
         data-aos="fade-up"
         data-aos-delay="400"

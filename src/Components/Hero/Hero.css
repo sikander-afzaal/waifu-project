@@ -63,6 +63,22 @@
 .hero_connect:hover {
   opacity: 0.8;
 }
+.hero_mint {
+  border: none;
+  border-radius: 25px;
+  color: white;
+  width: 200px;
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #3eb489;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+}
+.hero_mint:hover {
+  opacity: 0.8;
+}
 /* card-mine styling ------------------------------------- */
 .hero_card-mine-div * {
   overflow: visible !important;
