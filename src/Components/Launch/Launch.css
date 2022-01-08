@@ -24,12 +24,14 @@
   align-items: center;
   gap: 1.5rem;
   margin-top: 3rem;
+  width: 80%;
 }
 .launch-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
   flex: 1;
   gap: 1.6rem;
 }
@@ -109,7 +111,7 @@
   width: 99%;
   height: 3px;
   background-color: gray;
-  margin-top: 3rem;
+  margin: 3rem 0rem;
   position: relative;
 }
 .dot-div {
@@ -133,15 +135,15 @@
   font-weight: 600;
 }
 .dot-div:nth-child(1) {
-  left: 5%;
+  left: 12%;
   top: -8px;
 }
 .dot-div:nth-child(2) {
-  left: 24%;
+  left: 29%;
   top: -8px;
 }
 .dot-div:nth-child(3) {
-  left: 42%;
+  left: 45%;
   top: -8px;
 }
 .dot-div:nth-child(4) {
@@ -149,18 +151,46 @@
   top: -8px;
 }
 .dot-div:nth-child(5) {
-  left: 81%;
+  left: 77%;
   top: -8px;
 }
-@media screen and (max-width: 1576px) {
+@media screen and (max-width: 1720px) {
+  .launch-div {
+    width: 95%;
+  }
   .box {
-    width: 80% !important;
+    width: 95% !important;
   }
   .launch-box p {
     font-size: 1.2rem;
   }
+  .dot-div:nth-child(1) {
+    left: 5%;
+    top: -8px;
+  }
+  .dot-div:nth-child(2) {
+    left: 25%;
+    top: -8px;
+  }
+  .dot-div:nth-child(3) {
+    left: 45%;
+    top: -8px;
+  }
+  .dot-div:nth-child(4) {
+    left: 64%;
+    top: -8px;
+  }
+  .dot-div:nth-child(5) {
+    left: 84%;
+    top: -8px;
+  }
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1313px) {
+  .launch-box p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1101px) {
   .launch-box p {
     font-size: 1.4rem;
   }

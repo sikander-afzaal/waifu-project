@@ -17,7 +17,7 @@ function Hero() {
   const [timerSeconds, setTimerSeconds] = useState("00");
   let interval = useRef();
   const startTimer = () => {
-    const countdownDate = new Date("Jan 21, 2022 00:00:00").getTime();
+    const countdownDate = new Date("Jan 06, 2022 16:22:00").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;

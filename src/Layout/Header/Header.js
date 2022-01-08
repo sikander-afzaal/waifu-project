@@ -22,7 +22,7 @@ function Header() {
   };
   return (
     <div className="header">
-      <img className="logo" src={Logo} alt="" />
+      <img className="logo mobile" src={Logo} alt="" />
       <ul className="navbar2">
         <li>
           <i onClick={opening} className="mobile fas fa-times"></i>
@@ -36,6 +36,14 @@ function Header() {
           <a href="#about" className="nav-items">
             About
           </a>
+        </li>
+        <li>
+          <a href="#collection" className="nav-items">
+            Collection
+          </a>
+        </li>
+        <li className="logo-li">
+          <img className="logo-nav desktop" src={Logo} alt="" />
         </li>
         <li>
           <a href="#roadmap" className="nav-items">

@@ -1,11 +1,12 @@
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 16vh;
   width: 100%;
   background-color: var(--header);
   border-bottom: 3px solid #525252;
+  overflow: hidden;
 }
 .desktop {
   display: block;
@@ -57,6 +58,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding-left: 2rem;
 }
 .header_icon {
   font-size: 30px;
@@ -67,6 +69,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.logo-li {
+  width: 10%;
+}
+.logo-nav {
+  object-fit: contain;
+  width: 100%;
 }
 .fa-discord {
   background-color: #5865f2;
