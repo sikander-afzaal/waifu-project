@@ -213,6 +213,8 @@
   }
   .collect_left p {
     font-size: 1.2rem;
+    opacity: 1 !important;
+    transform: translateX(0rem) !important;
   }
 }
 @media screen and (max-width: 900px) {
