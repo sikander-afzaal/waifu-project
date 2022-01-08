@@ -184,12 +184,27 @@
     font-size: 1.2rem;
   }
 }
+@media screen and (max-width: 900px) {
+  .collection_p {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+}
 @media screen and (max-width: 782px) {
+  .collection_p {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+
   .collection {
     text-align: center;
   }
   .collect-div {
     width: 70%;
+  }
+  .collection_p {
+    font-size: 1.2rem;
+    width: 90%;
   }
 }
 @media screen and (max-width: 660px) {
