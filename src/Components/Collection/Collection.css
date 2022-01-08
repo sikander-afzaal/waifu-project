@@ -63,6 +63,8 @@
   color: white;
   font-size: 1.1rem;
   line-height: 1.5;
+  opacity: 0;
+  transition: all 0.45s ease-in-out;
 }
 .collect_right {
   width: 22%;
@@ -84,6 +86,20 @@
   left: 0%;
   top: 71%;
 }
+.number1 .collect_left p,
+.number2 .collect_left p,
+.number3 .collect_left p {
+  transform: translateX(-100%);
+}
+.number4 .collect_left p,
+.number5 .collect_left p,
+.number6 .collect_left p {
+  transform: translateX(100%);
+}
+.collect-div:hover .hover-p {
+  transform: translateX(0);
+  opacity: 1;
+}
 .number4 {
   left: 70%;
   top: 15%;
@@ -102,24 +118,34 @@
 .number7 {
   flex-direction: column;
   align-items: center;
-  left: 35%;
+  left: 41%;
   top: 15%;
   gap: 20px;
   text-align: center;
+  width: 17%;
 }
 .number7 .collect_left {
   align-items: center;
+  width: 100%;
+}
+.number7 .collect_right {
+  width: 41%;
 }
 .number8 {
   flex-direction: column;
   align-items: center;
-  left: 35%;
-  top: 60%;
+  left: 42%;
+  top: 59%;
   gap: 20px;
   text-align: center;
+  width: 17%;
 }
 .number8 .collect_left {
   align-items: center;
+  width: 100%;
+}
+.number8 .collect_right {
+  width: 41%;
 }
 .number4 .collect_left,
 .number5 .collect_left,
@@ -148,6 +174,11 @@
 @media screen and (max-width: 1324px) {
   .collection_grid {
     gap: 40px;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .number8 {
+    top: 51%;
   }
 }
 @media screen and (max-width: 1214px) {
